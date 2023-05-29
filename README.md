@@ -1,5 +1,9 @@
 # NQueensProblem
 
+# Setup
+Mpj package: https://sourceforge.net/projects/mpjexpress/
+Setup tutorial: https://www.youtube.com/watch?v=SqJ01eE9tiI&ab_channel=MasurahMasue
+
 # Implementation method
 
 For the goal of implementing the task, we had to take into consideration the master/worker paradigm. For this goal it was imperative to implement a way to find all possible positions of the n queens, in the n*n chessboard. For this goal, Heap’s algorithm was used. Heap’s algorithm is used to generate all permutation of n objects. The idea is to generate each permutation from a previous permutation by interchanging elements without affecting the others. To achieve this the already existing algorithm was adapted to use on matrices. Each permutation is then checked to see if it fits all the desired limitations to constitute a solution, and in the event that it is, the matrix is printed and stored in an ArrayList. The sequential solution followed this algorithm, while the parallel and distributive solutions, took to divide the number of permutations available for testing depending on the systems available processors.
