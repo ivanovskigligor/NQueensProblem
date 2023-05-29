@@ -1,7 +1,7 @@
 # NQueensProblem
 
 # Setup
-Mpj package: https://sourceforge.net/projects/mpjexpress/
+Mpj package: https://sourceforge.net/projects/mpjexpress/ <br />
 Setup tutorial: https://www.youtube.com/watch?v=SqJ01eE9tiI&ab_channel=MasurahMasue
 
 # Implementation method
